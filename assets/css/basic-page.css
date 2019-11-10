@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    font-family: 'Raleway', Verdana, Geneva, Tahoma sans-serif;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    color: #6b6b6b;
+}
+
+.top-nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    text-align:right;
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    background-color: #2c3e50;
+   
+}
+
+.top-nav ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+}
+
+.top-nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-menu {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.logo {
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+li {
+    padding: 20px 5px 20px 5px;
+}
+
+li a.nav-item {
+    color: #5e7791;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-menu li{
+    display: inline;
+    list-style: none;
+}
+
+#navbar  li.active > a {
+    color: #fff
+}
+
+.active {
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+section {
+    display: block;
+    margin: -80px 0 20px 0;
+    padding: 80px 0 0px 0;
+}
+
+.content {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+section#home {
+    background-color: #2c3e50;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+section h1, h3{
+    text-align: center;
+    font-weight: 50;
+}
+
+section h1 {
+    font-size: 25pt;
+}
+
+section p {
+    display: block;
+    margin: 30px auto;
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+section img {
+    display: block;
+    margin: 0 auto;
+}
+
+section#home img {
+    width: 50%;
+    height: 50%;
+}
+
+section#about img {
+    width: 60%;
+}
+
+.bg-grey {
+    padding-top: 30px;
+    border-color: #fff;
+    border-top: #fff 50px solid;
+    margin-top: -50px;
+    background-color: #f0f0f0;
+}
+
+.bg-withe {
+    background-color: #fff;
+}
+
+.carousel {
+    width: 100%;
+    display: inline-flex;
+}
+
+.card {
+    width: 185px;
+    padding: 20px 10px 20px 10px;
+    display: block;
+    margin: 5px auto;
+    
+}
+
+.avatar-card {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 5px auto;
+}
+
+.card h1 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.card h3 {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.btn-card {
+    background-color: #2c3e50;
+    border-radius: 3px;
+    border: none;
+    display: block;
+    margin: 20px auto;
+    width: 60px;
+    height: 30px;
+    padding-left: 1px;
+    padding-right: 2px;
+}
+
+.img-btn-card {
+    width: 75%;
+}
+
+.nav-list{
+    margin: 0 auto;
+}
+
+.nav-list ul{
+    text-align: center;
+}
+
+#port-menu li {
+    margin: 0 auto;
+    padding: 2px;
+    cursor: pointer;
+}
+
+a.active{
+    color: #6b6b6b;
+}
+
+.grid-list {
+    padding: 20px 0  20px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+    width: 100%;
+}
+
+.card-secondary {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.card-secondary img {
+    width: 100%;
+}
+
+.caption-card {
+    width: 100%;
+    background-color: #979595;
+}
+
+.caption-card h1 {
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.caption-card h3 {
+    margin: 0;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: left;
+}   
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom:  25px;
+}
+
+.form-item {
+    display: block;
+    margin: 10px auto;
+    width: 65%;
+    height: 25px;
+    border: #d4d1d1 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+    color: #979595;
+}
+
+.textarea {
+    height: 90px;
+}
+
+#btn-form {
+    display: block;
+    margin: 35px auto 0 auto;
+    font-size: 22px;
+    width: 150px;
+    
+}
+
+footer {
+    height: 100px;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+footer > ul {
+    padding-left: 0 ;
+}
+
+footer ul > li{
+    display: inline;
+    list-style: none;
+}
+
+footer > ul > li > a {
+    text-decoration: none;
+    color: #6b6b6b; 
+}
+
+footer > h3 {
+    font-size: 11px;
+    color: #979595;
+}
+
