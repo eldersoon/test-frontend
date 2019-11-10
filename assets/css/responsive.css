@@ -1,5 +1,3 @@
-
-
 @media (min-width: 300px) and (max-width: 699px) { 
     
     .content {
@@ -51,6 +49,14 @@
         grid-template-columns: auto;
         text-align: center;
     }
+
+    .nav-menu li a.btn {
+        border: none;
+        padding: 0;
+        margin: 2px;
+    }
+
+    
     
 }
 
